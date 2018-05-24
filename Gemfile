@@ -42,6 +42,7 @@ gem 'devise'
 gem 'toastr-rails'
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.1.0', require: false
+gem 'aws-sdk', '~> 3'
 
 group :production do
   gem 'pg'
